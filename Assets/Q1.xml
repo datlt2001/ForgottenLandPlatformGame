@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <Info>You need to represent 31 unique values in binary. How many bits do you need?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. 5</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. -1</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. 4.9542</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. 8</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>30</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Select the two things that a data type tells us below</Info>
+      <Answers>
+        <Answer>
+          <Info>A. How to interpret the bits for variables of that data type</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. The name of a variable of that data type</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. The address of a variable of that data type</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Valid operations for variables of that data type</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>30</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>How do you create a variable with the numberic value 5?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. num = 5</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. int x = 5</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. x = 5</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. num x = 5</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>How you can pause the game?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Time.timeScale = 0;</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Time.deltaTime = 0;</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Time fixedDeltaTime = 0;</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Time.time = 0;</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following is one of the Behavioral Design Patterns?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Facade</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Chain of repository</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Abtract Factory</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Bridge</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>What is the benefit of Generics?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. All of the others</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Allow safely upgrading the code with casting or boxing</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Can be reusable with different types but can not accept values of a single type at a time</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Ensure type-safety at compile-time (ensure strongly-typed programming model</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which is keyword meaning access is limited to the current assembly or types derived from the defining class in the current assembly?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. internal</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. private</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. protected internal</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. public</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>To read a line from the command line window (console window), which of the following statements should be used?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. System.ReadLine();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. System.Console.WriteLine();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. System.Console.ReadLine();</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. System.Read.ReadLine();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following is one of the Gang of Four (GoF) patterns categories?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. All of the others</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Structural</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Creational</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Behavioral</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following statement is one of the core components of the .NET Framework integral to any application or service development?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Custom Assemblies</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. None of the others</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Microsoft Intermediate Language (MSIL)</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. NET Framework Class Library (FCL)</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following keywords meaning access is limited in the same assembly but not outside the assembly?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. public</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. private</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. protected internal</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. internal</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following entry points of the application does not the C# compiler accept?</Info>
+      <Answers>
+        <Answer>
+          <Info>a.public static void Main(string[] Arguments)</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b.public static int Main(string [] Arguments)</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c.public static int Main()</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d.public static void Main(int[] agrs)</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Choose the incorrect statement about the delegate</Info>
+      <Answers>
+        <Answer>
+          <Info>a.Delegates are type-safe</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b.Delegates are used to invoke methods that have the same signatures</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c.Delegates are of reference types</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d.A delegate cannot use with event</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following is one of the Creational Design Patterns?</Info>
+      <Answers>
+        <Answer>
+          <Info>a.Adapter</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b.Singleton</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c.All of the others</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d.Decorator</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which the following query operators can use to calculate the sum of the elements in the expression?</Info>
+      <Answers>
+        <Answer>
+          <Info>a.All of the others</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b.SumAll</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c.Sum</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d.SumWhile</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+  </Questions>
+</Data>

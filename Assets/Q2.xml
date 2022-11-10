@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<Data xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <Info>Disadvantages of Prototype Design Pattern? (Choose 3)</Info>
+      <Answers>
+        <Answer>
+          <Info>a. Overkill for a project that uses very few objects and/or does not have an underlying emphasis on the extension of prototype chains.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b. Hides concrete product classes from the client</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c. Each subclass of Prototype must implement the clone() operation which may be difficult, when the classes under consideration already exist.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d. Make the code more complex and hard to implement</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>50</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>An implementation of singleton class should have which of the following properties: (Choose 2)</Info>
+      <Answers>
+        <Answer>
+          <Info>a. It should have only one instance</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b. It shouldn't have any instances</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c. Instance should be private</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d. Instance should be globally accessible</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>50</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Methods to instantiate Singleton class: (Choose 2)</Info>
+      <Answers>
+        <Answer>
+          <Info>a. Late initialization</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b. Early initialization</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c. Lazy initialization</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d. Hard initialization</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>40</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>What is the name of the component that enables a GameObject to react when it comes into contact with other GameObjects?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Collider</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Rigidbody</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Transform</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Physics Raycaster</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>To make your camera point at an object as it moves what method you need to use:</Info>
+      <Answers>
+        <Answer>
+          <Info>A. LookAt()</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Follow()</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. No method exists</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. You need to make camera child of object</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>To define input axes and game actions for your project you need?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Input Manager</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Physics Manager</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. PresetManager</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. PlayerSettings</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Advantages of Object Pool: (Choose 3)</Info>
+      <Answers>
+        <Answer>
+          <Info>a. It offers a significant performance boost.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>b. It manages the connections and provides a way to reuse and share them.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>c. Object pool pattern is used when the rate of initializing an instance of the class is high.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>d. Hides concrete product classes from the client</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>50</Timer>
+      <Type>Multi</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which features include full 3D spatial sound, real-time mixing and mastering, hierarchies of mixers, snapshots, predefined effects?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Unity's Audio</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Unity's Animation</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Unity's Graphics</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Unity's Physics</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which method in GameObject in Unity, calls a method on every MonoBehaviour in the game object or any of its children?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. BroadcastMessage</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. MessageBroadcast</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. ChildBroadcast</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. BroadcastChild</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>How do you assign a script to an object?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. Drag script onto game object in the project options</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. Drag script onto game object in the inspector</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. Drag script onto game object in the hierarchy</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. Drag script onto game object in the scene</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>40</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+    <Question>
+      <Info>Which method of input class returns true during the frame the user releases the key identified by name?</Info>
+      <Answers>
+        <Answer>
+          <Info>A. GetKey</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>B. GetKeyDown</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C. GetKeyUp</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>D. GetKeyRelease</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>40</Timer>
+      <Type>Single</Type>
+      <AddScore>100</AddScore>
+    </Question>
+  </Questions>
+</Data>
